@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{d7aebc1c-53e6-4cba-bfaf-fa12d38d9126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UIOperations">
+      <UniqueIdentifier>{ecd1259f-4e23-4a64-a2df-f955c6681ff7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRectangle.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CCircle.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CLine.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="UIOperationChangeColor.cpp">
+      <Filter>Source Files\UIOperations</Filter>
+    </ClCompile>
+    <ClCompile Include="UIOperationCreateCircle.cpp">
+      <Filter>Source Files\UIOperations</Filter>
+    </ClCompile>
+    <ClCompile Include="UIOperationCreateLine.cpp">
+      <Filter>Source Files\UIOperations</Filter>
+    </ClCompile>
+    <ClCompile Include="UIOperationCreateRectangle.cpp">
+      <Filter>Source Files\UIOperations</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLine.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CRectangle.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CCircle.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UIOperationChangeColor.h">
+      <Filter>Source Files\UIOperations</Filter>
+    </ClInclude>
+    <ClInclude Include="UIOperationCreateCircle.h">
+      <Filter>Source Files\UIOperations</Filter>
+    </ClInclude>
+    <ClInclude Include="UIOperationCreateLine.h">
+      <Filter>Source Files\UIOperations</Filter>
+    </ClInclude>
+    <ClInclude Include="UIOperationCreateRectangle.h">
+      <Filter>Source Files\UIOperations</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

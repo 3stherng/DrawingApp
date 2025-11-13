@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CDialogBoxGeneric">
+    <Position X="2.25" Y="0.5" Width="3.25" />
+    <NestedTypes>
+      <Enum Name="CDialogBoxGeneric::__unnamed_enum_0e1f_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CDialogBoxGeneric.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABAAACEAAAAgAAEAgBAgAIABAAAAQAAAAAAQAgBiAAA=</HashCode>
+      <FileName>CDialogBoxGeneric.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogBoxCreateCircle">
+    <Position X="0.5" Y="6" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="CDialogBoxCreateCircle::InputParameters">
+        <TypeIdentifier>
+          <NewMemberFileName>CDialogBoxCreateCircle.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="CDialogBoxCreateCircle::OutputParameters">
+        <TypeIdentifier>
+          <NewMemberFileName>CDialogBoxCreateCircle.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABACAAgAAQgACIEAABAAAIABAAAAAAAQAAAAgAgiAAA=</HashCode>
+      <FileName>CDialogBoxCreateCircle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogBoxCreateRectangle">
+    <Position X="5.75" Y="6" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="CDialogBoxCreateRectangle::InputParameters">
+        <TypeIdentifier>
+          <NewMemberFileName>CDialogBoxCreateRectangle.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="CDialogBoxCreateRectangle::OutputParameters" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CDialogBoxCreateRectangle.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABASAAgAAAAAGIEAABAAAIAhAAAAAAAAAAAAAQgiAAI=</HashCode>
+      <FileName>CDialogBoxCreateRectangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogBoxCreateLine">
+    <Position X="3" Y="6" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="CDialogBoxCreateLine::InputParameters">
+        <TypeIdentifier>
+          <NewMemberFileName>CDialogBoxCreateLine.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="CDialogBoxCreateLine::OutputParameters">
+        <TypeIdentifier>
+          <NewMemberFileName>CDialogBoxCreateLine.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAACIEAABQAAIABIAEAAAAAAAAAAAgiAAI=</HashCode>
+      <FileName>CDialogBoxCreateLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogBoxPropertiesCircle">
+    <Position X="0.5" Y="20" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAQAAAAAAAIAAABAACAAAAAAAAAAAAAAAAAAiAAA=</HashCode>
+      <FileName>CDialogBoxPropertiesCircle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogBoxPropertiesGeneric">
+    <Position X="3.25" Y="15.25" Width="2.5" />
+    <NestedTypes>
+      <Enum Name="CDialogBoxPropertiesGeneric::__unnamed_enum_0e41_1">
+        <TypeIdentifier>
+          <NewMemberFileName>CDialogBoxPropertiesGeneric.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ARAAACEAAEAAAAAAgBAgAAAAAAAAAAAAAAAQEAAiAAA=</HashCode>
+      <FileName>CDialogBoxPropertiesGeneric.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogBoxPropertiesLine">
+    <Position X="3.75" Y="20" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAIIAAABAAAIAAAAAAAAAAAAAAAAAiAAA=</HashCode>
+      <FileName>CDialogBoxPropertiesLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogBoxPropertiesRectangle">
+    <Position X="6.75" Y="20" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QBEAAAAAAAAAAIAAABAAAAAAIAAAAAAAAAAAAAAiAAA=</HashCode>
+      <FileName>CDialogBoxPropertiesRectangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChildView">
+    <Position X="1.5" Y="26" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACAgAAABIEAAABAAAAAAAhAgAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ProjectChildView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CApp">
+    <Position X="4.25" Y="26" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAASAAAACAAAAAAAAABAAAAAAQAAAABAAAAgAA=</HashCode>
+      <FileName>ProjectMain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainFrame">
+    <Position X="6.5" Y="25.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAQAAIJQAABACAAAiEAggiAAAgAAgAgAAAAAAIA=</HashCode>
+      <FileName>ProjectMainFrm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

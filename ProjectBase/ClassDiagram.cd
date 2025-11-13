@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UIOperationChangeColor">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABAAAAIAAAAAAAAAAAAAAABAAAAAAAJCAA=</HashCode>
+      <FileName>UIOperationChangeColor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object::CCircle">
+    <Position X="1.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SkBAgoAAAAAIEAAAAAABAAAAQgAhoAGAAAgCChgAFAA=</HashCode>
+      <FileName>CCircle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object::CLine">
+    <Position X="3.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAEAAAAQABgAAAAAAQhgwAQWAQAgCAAgAFAA=</HashCode>
+      <FileName>CLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object::CRectangle">
+    <Position X="0.5" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAguAABgAIAAAAAgAAAAQAQgAhjAGAAAgCCggAFAA=</HashCode>
+      <FileName>CRectangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIOperationCreateCircle" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAIAAAAAAAAAAAAAAABAAAAAAAICAA=</HashCode>
+      <FileName>UIOperationCreateCircle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIOperationCreateLine" Collapsed="true">
+    <Position X="6.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAIAAAAAAAAAAAAAAABAAAAAAAICAA=</HashCode>
+      <FileName>UIOperationCreateLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIOperationCreateRectangle" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAACAAIAAAAAAAAAAAAAAABAAAAAAAICAA=</HashCode>
+      <FileName>UIOperationCreateRectangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
