@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Product Id="{BEA50D32-1693-4D67-AC68-9B5440E33555}" Codepage="1252" Language="1033" Manufacturer="EstherDev" Name="DrawIt" UpgradeCode="{5B84D1BB-0390-420E-88CF-307818921B4B}" Version="1.0.0.0">
+        <Package Comments="This installer database contains the logic and data required to install DrawIt." Compressed="yes" Description="DrawIt" InstallerVersion="500" Languages="1033" Manufacturer="EstherDev" Platform="x64" />
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="ProgramFiles64Folder">
+                <Directory Id="INSTALLFOLDER" Name="DrawIt">
+                    <Component Id="MainExecutable" Guid="{ECC25996-FFCB-52C5-9022-043359D083DB}" Win64="yes">
+                        <File Id="MyExeFile" Name="DrawIt.exe" KeyPath="yes" DiskId="1" Source="out\File\MyExeFile" />
+                    </Component>
+                </Directory>
+            </Directory>
+            <Directory Id="ProgramMenuFolder">
+                <Directory Id="ApplicationProgramsFolder" Name="DrawIt">
+                    <Component Id="StartMenuShortcutComponent" Guid="{5C119A56-3965-52FA-86DA-F8C6AB695DCC}" Win64="yes">
+                        <RegistryValue Id="regDD241898BCBD2FAA39FBF7C6D22162FA" Root="HKCU" Key="Software\EstherDev\DrawIt" Name="installed" Value="1" Type="integer" KeyPath="yes" />
+                        <RemoveFolder Id="RemoveStartMenuFolder" Directory="ApplicationProgramsFolder" On="uninstall" />
+                        <Shortcut Id="StartMenuShortcut" Directory="ApplicationProgramsFolder" Name="DrawIt" WorkingDirectory="INSTALLFOLDER" Advertise="yes" />
+                    </Component>
+                </Directory>
+            </Directory>
+        </Directory>
+        <Feature Id="MainFeature" Level="1" Title="DrawIt">
+            <ComponentRef Id="MainExecutable" />
+            <ComponentRef Id="StartMenuShortcutComponent" />
+        </Feature>
+        <Media Id="1" Cabinet="cab1.cab" />
+        <Property Id="ALLUSERS" Value="1" />
+        <Property Id="ARPCONTACT" Value="EstherDev" />
+        <Property Id="ARPURLINFOABOUT" Value="https://estherng.work" />
+        <UIRef Id="WixUI_InstallDir" />
+    </Product>
+</Wix>

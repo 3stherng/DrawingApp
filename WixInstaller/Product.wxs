@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+	<Product Id="*"
+			 Name="DrawIt"
+			 Language="1033"
+			 Version="1.0.0.0"
+			 Manufacturer="EstherDev"
+			 UpgradeCode="5B84D1BB-0390-420E-88CF-307818921B4B">
+
+		<Package InstallerVersion="500"
+				 Compressed="yes"
+				 InstallScope="perMachine" />
+
+		<!-- Auto media (fixes LGHT0094) -->
+		<MediaTemplate />
+
+		<!-- ✅ UI with license -->
+		<UIRef Id="WixUI_InstallDir" />
+		<UIRef Id="WixUI_ErrorProgressText" />
+
+		<!-- ✅ License file -->
+		<WixVariable Id="WixUILicenseRtf" Value="License.rtf" />
+
+		<!-- Install directory binding -->
+		<Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+
+		<!-- Add/Remove Programs -->
+		<Property Id="ARPCONTACT" Value="EstherDev" />
+		<Property Id="ARPURLINFOABOUT" Value="https://estherng.work" />
+
+		<!-- Directory structure -->
+		<Directory Id="TARGETDIR" Name="SourceDir">
+
+			<!-- 64-bit Program Files -->
+			<Directory Id="ProgramFiles64Folder">
+				<Directory Id="INSTALLFOLDER" Name="DrawIt">
+
+					<Component Id="MainExecutable" Guid="*" Win64="yes">
+						<File Id="DrawItExe"
+							  Source=".\_build\DrawIt.exe"
+							  KeyPath="yes" />
+					</Component>
+
+				</Directory>
+			</Directory>
+
+			<!-- Start Menu -->
+			<Directory Id="ProgramMenuFolder">
+				<Directory Id="ApplicationProgramsFolder" Name="DrawIt">
+
+					<Component Id="StartMenuShortcutComponent" Guid="*">
+
+						<Shortcut Id="StartMenuShortcut"
+								  Name="DrawIt"
+								  Target="[INSTALLFOLDER]DrawIt.exe"
+								  WorkingDirectory="INSTALLFOLDER" />
+
+						<!-- Cleanup on uninstall -->
+						<RemoveFolder Id="RemoveStartMenuFolder"
+									  On="uninstall" />
+
+						<!-- Required KeyPath -->
+						<RegistryValue Root="HKCU"
+									   Key="Software\EstherDev\DrawIt"
+									   Name="installed"
+									   Type="integer"
+									   Value="1"
+									   KeyPath="yes" />
+
+					</Component>
+
+				</Directory>
+			</Directory>
+
+		</Directory>
+
+		<!-- Feature -->
+		<Feature Id="MainFeature"
+				 Title="DrawIt"
+				 Level="1">
+
+			<ComponentRef Id="MainExecutable" />
+			<ComponentRef Id="StartMenuShortcutComponent" />
+
+		</Feature>
+
+	</Product>
+
+</Wix>

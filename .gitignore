@@ -1,3 +1,11 @@
 **/.vs
 **/x64
+**/_*
 **/*.obj
+**/WixInstaller/bin/
+**/WixInstaller/obj/
+**/WixInstaller/out/
+**/WixInstaller/**/*.msi
+**/WixInstaller/**/*.wixobj
+**/WixInstaller/**/*.wixpdb
+**/WixInstaller/**/*.cab

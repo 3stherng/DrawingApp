@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="WixInstaller.wixproj" Id="ba9a1f2c-70b1-4730-a7a9-9c738837016a">
+    <Build Solution="*|x64" />
+    <Build Solution="Debug|x86" />
+  </Project>
+</Solution>
