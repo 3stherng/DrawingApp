@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.7.34018.315
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11626.88 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathHelpers", "MathHelpers\MathHelpers.vcxproj", "{FD9671AF-0543-471E-8C24-6D00FCD97FC6}"
 EndProject
@@ -9,9 +9,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectFramework", "Project
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectBase", "ProjectBase\ProjectBase.vcxproj", "{C764C8B3-E7EB-487F-85B3-F66987BDB920}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectMain", "ProjectMain\ProjectMain.vcxproj", "{7E95C555-DE88-49F9-9E18-88DBE37ED1EB}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestMathHelpers", "TestMathHelpers\TestMathHelpers.vcxproj", "{FA3842EB-7157-4985-869E-580ABEE3DFB4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Drawit", "DrawIt\ProjectMain.vcxproj", "{7E95C555-DE88-49F9-9E18-88DBE37ED1EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +45,13 @@ Global
 		{C764C8B3-E7EB-487F-85B3-F66987BDB920}.Release|x64.Build.0 = Release|x64
 		{C764C8B3-E7EB-487F-85B3-F66987BDB920}.Release|x86.ActiveCfg = Release|Win32
 		{C764C8B3-E7EB-487F-85B3-F66987BDB920}.Release|x86.Build.0 = Release|Win32
+		{FA3842EB-7157-4985-869E-580ABEE3DFB4}.Debug|x64.ActiveCfg = Debug|x64
+		{FA3842EB-7157-4985-869E-580ABEE3DFB4}.Debug|x64.Build.0 = Debug|x64
+		{FA3842EB-7157-4985-869E-580ABEE3DFB4}.Debug|x86.ActiveCfg = Debug|Win32
+		{FA3842EB-7157-4985-869E-580ABEE3DFB4}.Debug|x86.Build.0 = Debug|Win32
+		{FA3842EB-7157-4985-869E-580ABEE3DFB4}.Release|x64.ActiveCfg = Release|x64
+		{FA3842EB-7157-4985-869E-580ABEE3DFB4}.Release|x86.ActiveCfg = Release|Win32
+		{FA3842EB-7157-4985-869E-580ABEE3DFB4}.Release|x86.Build.0 = Release|Win32
 		{7E95C555-DE88-49F9-9E18-88DBE37ED1EB}.Debug|x64.ActiveCfg = Debug|x64
 		{7E95C555-DE88-49F9-9E18-88DBE37ED1EB}.Debug|x64.Build.0 = Debug|x64
 		{7E95C555-DE88-49F9-9E18-88DBE37ED1EB}.Debug|x86.ActiveCfg = Debug|Win32
@@ -53,13 +60,6 @@ Global
 		{7E95C555-DE88-49F9-9E18-88DBE37ED1EB}.Release|x64.Build.0 = Release|x64
 		{7E95C555-DE88-49F9-9E18-88DBE37ED1EB}.Release|x86.ActiveCfg = Release|Win32
 		{7E95C555-DE88-49F9-9E18-88DBE37ED1EB}.Release|x86.Build.0 = Release|Win32
-		{FA3842EB-7157-4985-869E-580ABEE3DFB4}.Debug|x64.ActiveCfg = Debug|x64
-		{FA3842EB-7157-4985-869E-580ABEE3DFB4}.Debug|x64.Build.0 = Debug|x64
-		{FA3842EB-7157-4985-869E-580ABEE3DFB4}.Debug|x86.ActiveCfg = Debug|Win32
-		{FA3842EB-7157-4985-869E-580ABEE3DFB4}.Debug|x86.Build.0 = Debug|Win32
-		{FA3842EB-7157-4985-869E-580ABEE3DFB4}.Release|x64.ActiveCfg = Release|x64
-		{FA3842EB-7157-4985-869E-580ABEE3DFB4}.Release|x86.ActiveCfg = Release|Win32
-		{FA3842EB-7157-4985-869E-580ABEE3DFB4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
